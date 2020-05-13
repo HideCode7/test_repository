@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="InvoiceTemplate" xml:space="preserve">
+    <value>&lt;!--&lt;script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"&gt;&lt;/script&gt;--&gt;
+&lt;!------ Include the above in your HEAD tag ----------&gt;
+&lt;div id="invoice" style=" position: relative; background-color: #FFF; min-height: 680px; padding: 15px"&gt;
+    &lt;div class="invoice overflow-auto"&gt;
+        &lt;div style="min-width: 600px"&gt;
+            &lt;header style=" padding: 10px 0; margin-bottom: 20px; border-bottom: 1px solid #3989c6"&gt;
+                &lt;div class="row"&gt;
+                    &lt;div class="col"&gt;
+                        &lt;a target="_blank" href="http://paylend.pt"&gt;
+                            &lt;img src="https://paysimplexstorage.blob.core.windows.net/images/Logotipo_paylend.png" data-holder-rendered="true" style="height: 30px" /&gt;
+                        &lt;/a&gt;
+                        &lt;br&gt;
+                    &lt;/div&gt;
+                    &lt;div class="col company-details" style="text-align: left"&gt;
+                        &lt;h2 class="name" style="  margin-top: 0; margin-bottom: 0"&gt;
+                            &lt;a target="_blank" href="http://paylend.pt"&gt;
+                                &lt;!--[EntityName]--&gt;
+                            &lt;/a&gt;
+                        &lt;/h2&gt;
+                        &lt;div style="padding-left:10px"&gt;[EntityAddress]&lt;/div&gt;
+                        &lt;div style="padding-left:10px"&gt;[EntityPostalCode], [EntityCity]&lt;/div&gt;
+                        &lt;div style="padding-left:10px"&gt;[EntityNIF]&lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/header&gt;
+            &lt;div class="main" style="padding-bottom: 25px"&gt;
+                &lt;div class="row contacts" style="margin-bottom: 20px"&gt;
+                    &lt;div class="col invoice-to" style="text-align: right"&gt;
+                        &lt;h2 class="to" style="margin-top: 0; margin-bottom: 0"&gt;[UserName]&lt;/h2&gt;
+                        &lt;div class="address"&gt;[UserAddress]&lt;/div&gt;
+                        &lt;div class="email"&gt;[UserNIF]&lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;div class="col invoice-details" style="text-align: left"&gt;
+                        &lt;h1 class="invoice-id" style="margin-top: 0;font-size: 20px; color: #3989c6"&gt;[DocumentNumber]&lt;/h1&gt;
+                        &lt;div class="date" style="margin-top: -10px;"&gt;Data de faturação: [OperationDate]&lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;table border="0" cellspacing="0" cellpadding="0" style="width: 100%; border-collapse: collapse; border-spacing: 0; margin-bottom: 20px"&gt;
+                    &lt;thead&gt;
+                        &lt;tr&gt;
+                            &lt;th style="padding: 15px; background: #eee; border-bottom: 1px solid #fff; white-space: nowrap; font-weight: 400; font-size: 16px"&gt;DESCRIÇÃO&lt;/th&gt;
+                            &lt;th style="padding: 15px; background: #eee; border-bottom: 1px solid #fff; white-space: nowrap; font-weight: 400; font-size: 16px"&gt;PREÇO UNITÁRIO&lt;/th&gt;
+                            &lt;th style="padding: 15px; background: #eee; border-bottom: 1px solid #fff; white-space: nowrap; font-weight: 400; font-size: 16px"&gt;QUANTIDADE&lt;/th&gt;
+                            &lt;th style="padding: 15px; background: #eee; border-bottom: 1px solid #fff; white-space: nowrap; font-weight: 400; font-size: 16px"&gt;VALOR&lt;/th&gt;
+                        &lt;/tr&gt;
+                    &lt;/thead&gt;
+                    &lt;tbody&gt;
+                        &lt;tr&gt;
+                            &lt;td class="text-right" style="padding: 15px; background: #eee; border-bottom: 1px solid #fff; font-size: 1.2em; background: #3989c6" text-align: right;&gt;[Description]&lt;/td&gt;
+                            &lt;td class="unit" style="padding: 15px; background: #eee; border-bottom: 1px solid #fff; text-align: right; font-size: 1.2em; background: #ddd"&gt;[UnitPrice]&lt;/td&gt;
+                            &lt;td class="qty" style="padding: 15px; background: #eee; border-bottom: 1px solid #fff; text-align: right; font-size: 1.2em"&gt;[Quantity]&lt;/td&gt;
+                            &lt;td class="total" style="padding: 15px; background: #eee; border-bottom: 1px solid #fff; text-align: right; font-size: 1.2em; background: #3989c6;"&gt;[ValorTotal]&lt;/td&gt;
+                        &lt;/tr&gt;
+                    &lt;/tbody&gt;
+                    &lt;tfoot&gt;
+                        &lt;tr&gt;
+                            &lt;td colspan="2" style="background: 0 0; border: none; white-space: nowrap; text-align: right; padding: 10px 20px; font-size: 1.0em;"&gt;&lt;/td&gt;
+                            &lt;td colspan="1" style="background: 0 0; border-bottom: none; white-space: nowrap; text-align: right; padding: 10px 20px; font-size: 1.0em; border-top: 1px solid #aaa"&gt;INCIDÊNCIA&lt;/td&gt;
+                            &lt;td style="background: 0 0; border-bottom: none; white-space: nowrap; text-align: right; padding: 10px 20px; font-size: 1.0em; border-top: 1px solid #aaa"&gt;[Incidencia]&lt;/td&gt;
+                        &lt;/tr&gt;
+                        &lt;tr&gt;
+                            &lt;td colspan="2" style="background: 0 0; border: none;  white-space: nowrap; text-align: right; padding: 10px 20px; font-size: 1.0em"&gt;&lt;/td&gt;
+                            &lt;td colspan="1" style="background: 0 0; border-bottom: none; white-space: nowrap; text-align: right; padding: 10px 20px; font-size: 1.0em; border-top: 1px solid #aaa"&gt;Valor IVA [PercentagemIva]&lt;/td&gt;
+                            &lt;td style="background: 0 0; border-bottom: none; white-space: nowrap; text-align: right; padding: 10px 20px; font-size: 1.0em; border-top: 1px solid #aaa"&gt;[ValorIva]&lt;/td&gt;
+                        &lt;/tr&gt;
+                        &lt;tr&gt;
+                            &lt;td colspan="2" style="background: 0 0; border-top: 1px solid #3989c6; border: none; white-space: nowrap; text-align: right; padding: 10px 20px; font-size: 1.2em;"&gt;&lt;/td&gt;
+                            &lt;td colspan="1" style="color: #3989c6; background: 0 0; border-top: 1px solid #3989c6; border-bottom: none; white-space: nowrap; text-align: right; padding: 10px 20px; font-size: 1.2em;"&gt;TOTAL&lt;/td&gt;
+                            &lt;td style="color: #3989c6; font-size: 1.2em; border-top: 1px solid #3989c6; background: 0 0; border-bottom: none; white-space: nowrap; text-align: right; padding: 10px 20px"&gt;[ValorTotal]&lt;/td&gt;
+                        &lt;/tr&gt;
+                    &lt;/tfoot&gt;
+                &lt;/table&gt;
+                &lt;div class="notices" style="padding-left: 6px; border-left: 6px solid #3989c6"&gt;
+                    &lt;div class="notice" style=" font-size: 1.0em"&gt;Este documento é válido como recibo após boa cobrança&lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;footer style="width: 100%; text-align: center;  color: #777; border-top: 1px solid #aaa; padding: 8px 0"&gt;
+                [InvoiceHash] - Processado por programa certificado n.º 1656/AT
+            &lt;/footer&gt;
+        &lt;/div&gt;
+        &lt;!--DO NOT DELETE THIS div. IT is responsible for showing footer always at the bottom--&gt;
+        &lt;div&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</value>
+  </data>
+</root>
